@@ -4,7 +4,7 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
   /* Visual */
-  background-image: url("../imgs/ignasi_pattern_s.png");
+  background-image: url("../imgs/trees.png");
 }
 
 html {
@@ -46,6 +46,9 @@ main {
 
   /* Visual */
   background: #4aaaa5;
+
+  padding: 2%;
+  padding-right: 2%;
 }
 
 /* override bootstrap hover color and border */
@@ -62,6 +65,20 @@ main {
 @media only screen and (max-width: 767px) {
   .navbar-header {
     background-color: #4aaaa5;
+  }
+
+  #logo {
+    font-family: Georgia, Times, "Times New Roman", serif;
+  
+    /* Typography */
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  
+    /* Visual */
+    background: #4aaaa5;
+  
+    padding: 2%;
   }
 }
 /* END NAV */
