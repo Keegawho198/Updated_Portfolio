@@ -15,6 +15,11 @@ html {
   min-height: 100%;
 }
 
+img{
+  height: 300px;
+  width: 300px;
+}
+
 /* add space for fixed nav */
 main {
   margin: 80px 0;
@@ -26,6 +31,7 @@ main {
 
   padding: 30px;
   margin-bottom: 30px;
+  margin-top: -14px;
 }
 
 .block-header {
@@ -157,7 +163,8 @@ main {
   float: left;
 
   /* Box-model */
-  width: 200px;
+  width: 260px;
+  height: 280px;
   margin: 0 20px 10px 0;
 }
 /* END ABOUT-ME PAGE */
