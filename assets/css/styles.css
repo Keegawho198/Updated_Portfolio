@@ -54,7 +54,7 @@ main {
   background: #4aaaa5;
 
   padding: 2%;
-  padding-right: 2%;
+  padding-right: 4%;
 }
 
 /* override bootstrap hover color and border */
@@ -85,6 +85,7 @@ main {
     background: #4aaaa5;
   
     padding: 2%;
+    padding-right: 5%;
   }
 }
 /* END NAV */
