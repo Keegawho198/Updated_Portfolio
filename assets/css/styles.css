@@ -86,7 +86,7 @@ main {
 }
 
 /* media query for nav background color change */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 700px) {
   .navbar-header {
     background-color: #4aaaa5;
   }
