@@ -86,9 +86,14 @@ main {
 }
 
 /* media query for nav background color change */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 767px) {
   .navbar-header {
     background-color: #4aaaa5;
+  }
+
+  img{
+    height: 200px;
+    width: 200px;
   }
 
   /* #logo {
@@ -121,10 +126,7 @@ main {
   height: 55px;
 }
 
-img{
-  height: 200px;
-  width: 200px;
-}
+
 
 #images {
   /* Box-model */
